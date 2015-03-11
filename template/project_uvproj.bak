@@ -7,7 +7,7 @@
 
   <Targets>
     <Target>
-      <TargetName>template</TargetName>
+      <TargetName>Project</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
       <TargetOption>

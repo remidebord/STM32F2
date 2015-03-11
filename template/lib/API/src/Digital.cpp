@@ -124,6 +124,7 @@ DigitalOut :: DigitalOut(GPIO_common GPIO_c)
 	else if(m_port == GPIOB) RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOB, ENABLE);
 	else if(m_port == GPIOC) RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOC, ENABLE);
 	else if(m_port == GPIOD) RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOD, ENABLE);
+	else if(m_port == GPIOH) RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOH, ENABLE);
 	
   /* Configure "pin" in output pushpull mode */
   GPIO_InitStructure.GPIO_Pin = m_pin;
